@@ -6,6 +6,14 @@ This code is built on the core code of Salimbeni & Deisenroth '17. Specifically,
 
 The code works with Python 3.6, tensorflow 1.8.0 and gpflow 1.1.1, but may fail for more recent versions. 
 
+### Installatioon:
+
+Once you have a (virtual) Python environment satisfying the compatability conditions, you will also need to install gpflow-monitor and the DSDGP code itself. For the latter, simply navigate to the appropriate directory and run 
+```
+python setup.py develop
+```
+
+
 ### Portability:
 
 The code should be very portable to gpflow more generally. Specifically, 'robustified_likelihood.py' will work with any type of GP model inside gpflow.
